@@ -434,7 +434,6 @@
                     communicator by profession she attended in 2013 the courses in vanguard and contemporary
                     art of Artmark - Art Society.
 
-
                 </p>
             </div>
         </div>
