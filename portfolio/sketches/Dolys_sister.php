@@ -39,6 +39,9 @@
      BUNĂ BIANCA,
 
      Dacă vrei să schimbit titlul lucrării, trebuie doar să înlocuiești între ghilimelele de mai jos,
+
+
+
      Acest titlu ține doar de acest fișier, nu se va schimba titlul și în slider-ul de jos,
      pentru acela trebuie să deschizi fișierul /public_html/portfolio/sketches/sketch-portfolio.html
      și acolo să faci modificările necesare
@@ -47,12 +50,14 @@
     */
 
 
-    $TITLE = "Following_C 03";
+    $TITLE = "Doly's Sister";
 
     ?>
 
 
-    <title><?= $TITLE ?></title>
+
+
+    <title><?php echo $TITLE ?></title>
 
 </head>
 
@@ -125,7 +130,7 @@
                 <!-- Portfolio Single Image
                 ============================================= -->
                 <div class="col_two_third portfolio-single-image nobottommargin">
-                    <a href="../../images/sketches/following_C,_03.jpg" data-lightbox="image"><img src="../../images/sketches/following_C,_03.jpg" alt="<?= $TITLE ?>"></a>
+                    <a href="../../images/sketches/dolys_sister.jpg" data-lightbox="image"><img src="../../images/sketches/dolys_sister.jpg" alt="<?php echo $TITLE ?>"></a>
                 </div><!-- .portfolio-single-image end -->
 
                 <!-- Portfolio Single Content
@@ -135,7 +140,7 @@
                     <!-- Portfolio Single - Description
                     ============================================= -->
                     <div class="fancy-title title-bottom-border">
-                        <h2><?= $TITLE ?></h2>
+                        <h2><?php echo $TITLE ?></h2>
                     </div>
                     <p>
 
